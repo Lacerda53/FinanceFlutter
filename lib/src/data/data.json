@@ -1,0 +1,55 @@
+{
+    "user": {
+        "id": 1,
+        "name": "Hira Riaz",
+        "job": "UX/UI Designer",
+        "avatar": "",
+        "overviews": [
+            {
+                "type": "Sent",
+                "description": "Sending Payment to Clients",
+                "value": 150
+            },
+            {
+                "type": "Receive",
+                "description": "Receiving Salary from company",
+                "value": 250
+            },
+            {
+                "type": "Loan",
+                "description": "Loan for the Car",
+                "value": 400
+            },
+            {
+                "type": "Sent",
+                "description": "Sending Payment to Clients",
+                "value": 150
+            },
+            {
+                "type": "Receive",
+                "description": "Receiving Salary from company",
+                "value": 250
+            },
+            {
+                "type": "Loan",
+                "description": "Loan for the Car",
+                "value": 400
+            },
+            {
+                "type": "Sent",
+                "description": "Sending Payment to Clients",
+                "value": 150
+            },
+            {
+                "type": "Receive",
+                "description": "Receiving Salary from company",
+                "value": 250
+            },
+            {
+                "type": "Loan",
+                "description": "Loan for the Car",
+                "value": 400
+            }
+        ]
+    }
+}
