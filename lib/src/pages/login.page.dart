@@ -150,7 +150,14 @@ class _LoginState extends State<Login> {
               padding: EdgeInsets.all(8.0),
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(50)),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => Home(),
+                  ),
+                );
+              },
             ),
             padding: EdgeInsets.only(top: 30),
           ),
@@ -174,14 +181,7 @@ class _LoginState extends State<Login> {
                       "Forgot Password?",
                       style: TextStyle(color: Color(0xFF898989)),
                     ),
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => Home(),
-                        ),
-                      );
-                    }),
+                    onPressed: () {}),
               ],
             ),
           )
