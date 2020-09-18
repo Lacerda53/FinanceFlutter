@@ -39,10 +39,25 @@ class _HomeState extends State<Home> {
                         SizedBox(
                           width: 5,
                         ),
-                        Icon(
-                          Icons.notifications_none,
-                          size: 25,
-                          color: secundaryColor,
+                        Stack(
+                          children: [
+                            Icon(
+                              Icons.notifications_none,
+                              size: 25,
+                              color: secundaryColor,
+                            ),
+                            Positioned(
+                              bottom: 13,
+                              right: 1,
+                              child: Container(
+                                width: 9,
+                                height: 9,
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(10),
+                                    color: Colors.red),
+                              ),
+                            ),
+                          ],
                         ),
                       ],
                     ),

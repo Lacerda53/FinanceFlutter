@@ -3,107 +3,125 @@
                 "id": 1,
                 "type": "Sent",
                 "description": "Sending Payment to Clients",
+                "icon": "",
                 "value": 150
             },
             {
                 "id": 2,
                 "type": "Receive",
                 "description": "Receiving Salary from company",
+                "icon": "",
                 "value": 250
             },
             {
                 "id": 3,
                 "type": "Loan",
                 "description": "Loan for the Car",
+                "icon": "",
                 "value": 400
             },
             {
                 "id": 4,
                 "type": "Sent",
                 "description": "Sending Payment to Clients",
+                "icon": "",
                 "value": 150
             },
             {
                 "id": 5,
                 "type": "Receive",
                 "description": "Receiving Salary from company",
+                "icon": "",
                 "value": 250
             },
             {
                 "id": 6,
                 "type": "Loan",
                 "description": "Loan for the Car",
+                "icon": "",
                 "value": 400
             },
             {
                 "id": 7,
                 "type": "Sent",
                 "description": "Sending Payment to Clients",
+                "icon": "",
                 "value": 150
             },
             {
                 "id": 8,
                 "type": "Receive",
                 "description": "Receiving Salary from company",
+                "icon": "",
                 "value": 250
             },
             {
                 "id": 9,
                 "type": "Loan",
                 "description": "Loan for the Car",
+                "icon": "",
                 "value": 400
             },{
                 "id": 10,
                 "type": "Sent",
                 "description": "Sending Payment to Clients",
+                "icon": "",
                 "value": 150
             },
             {
                 "id": 11,
                 "type": "Receive",
                 "description": "Receiving Salary from company",
+                "icon": "",
                 "value": 250
             },
             {
                 "id": 12,
                 "type": "Loan",
                 "description": "Loan for the Car",
+                "icon": "",
                 "value": 400
             },
             {
                 "id": 13,
                 "type": "Sent",
                 "description": "Sending Payment to Clients",
+                "icon": "",
                 "value": 150
             },
             {
                 "id": 14,
                 "type": "Receive",
                 "description": "Receiving Salary from company",
+                "icon": "",
                 "value": 250
             },
             {
                 "id": 15,
                 "type": "Loan",
                 "description": "Loan for the Car",
+                "icon": "",
                 "value": 400
             },
             {
                 "id": 16,
                 "type": "Sent",
                 "description": "Sending Payment to Clients",
+                "icon": "",
                 "value": 150
             },
             {
                 "id": 17,
                 "type": "Receive",
                 "description": "Receiving Salary from company",
+                "icon": "",
                 "value": 250
             },
             {
                 "id": 18,
                 "type": "Loan",
                 "description": "Loan for the Car",
+                "icon": "",
                 "value": 400
             }
         ]

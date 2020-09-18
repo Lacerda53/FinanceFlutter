@@ -48,7 +48,7 @@ class _TransationsState extends State<Transations> {
                                   borderRadius:
                                       BorderRadius.all(Radius.circular(25))),
                               child: Container(
-                                padding: EdgeInsets.only(left: 20, right: 20),
+                                padding: EdgeInsets.only(left: 3, right: 3),
                                 child: FlatButton(
                                   onPressed: () {
                                     Navigator.pushNamed(context, '/details',

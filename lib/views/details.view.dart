@@ -1,3 +1,4 @@
+import 'package:finance_mobile/controllers/overviews.controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:finance_mobile/views/widgets/navmenu.widget.dart';
@@ -5,6 +6,8 @@ import 'themes/styles.dart';
 
 const search = 'assets/icons/search.svg';
 const letter = 'assets/icons/open-letter.svg';
+const background = 'assets/images/background.png';
+const background2 = 'assets/images/background2.png';
 
 class Details extends StatefulWidget {
   @override
@@ -12,6 +15,8 @@ class Details extends StatefulWidget {
 }
 
 class _DetailsState extends State<Details> {
+  var store = new OverviewController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -113,12 +118,12 @@ class _DetailsState extends State<Details> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "send",
+                                "Send",
                                 style: TextStyle(
                                     fontSize: 16, fontWeight: FontWeight.w900),
                               ),
                               Text(
-                                "blablalalba",
+                                "Sending Payment to Clients",
                                 style: TextStyle(
                                     color: Color(0xFFA4A4A4),
                                     fontSize: 13,
@@ -130,12 +135,42 @@ class _DetailsState extends State<Details> {
                       ],
                     ),
                     Text(
-                      "\$123",
+                      "\$320",
                       style:
                           TextStyle(fontSize: 13, fontWeight: FontWeight.w900),
                     ),
                   ],
                 ),
+              ),
+            ),
+            Container(
+              child: Image.asset(
+                background2,
+                width: MediaQuery.of(context).size.width,
+              ),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Container(
+              child: FlatButton(
+                child: SizedBox(
+                    width: MediaQuery.of(context).size.width / 1.2,
+                    height: MediaQuery.of(context).size.height / 18,
+                    child: Center(
+                      child: Text(
+                        'See Details',
+                        style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
+                      ),
+                    )),
+                color: primaryColor,
+                padding: EdgeInsets.all(8.0),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(50)),
+                onPressed: () {},
               ),
             ),
           ],
