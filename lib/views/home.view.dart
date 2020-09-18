@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
             ),
             Container(
               child: Padding(
-                padding: EdgeInsets.only(left: 40, right: 40),
+                padding: EdgeInsets.only(left: 20, right: 20),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -33,12 +33,15 @@ class _HomeState extends State<Home> {
                           "Overview",
                           style: TextStyle(
                               color: primaryColor,
-                              fontSize: 22,
+                              fontSize: 25,
                               fontWeight: FontWeight.bold),
+                        ),
+                        SizedBox(
+                          width: 5,
                         ),
                         Icon(
                           Icons.notifications_none,
-                          size: 22,
+                          size: 25,
                           color: secundaryColor,
                         ),
                       ],

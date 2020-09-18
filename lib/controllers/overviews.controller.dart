@@ -17,6 +17,7 @@ abstract class _OverviewControllerBase with Store {
 
   @action
   loadOverviews() async {
+    await new Future.delayed(const Duration(seconds: 3));
     listOverview =
         ObservableList<Overview>.of(await _overviewRepository.getAll());
   }

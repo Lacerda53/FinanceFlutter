@@ -1,6 +1,7 @@
 import 'package:finance_mobile/Views/themes/styles.dart';
 import 'package:finance_mobile/views/home.view.dart';
 import 'package:finance_mobile/views/login.view.dart';
+import 'package:finance_mobile/views/details.view.dart';
 import 'package:flutter/material.dart';
 
 class Finance extends StatelessWidget {
@@ -13,6 +14,7 @@ class Finance extends StatelessWidget {
       routes: {
         '/login': (context) => Login(),
         '/home': (context) => Home(),
+        '/details': (context) => Details(),
       },
       initialRoute: '/login',
     );
