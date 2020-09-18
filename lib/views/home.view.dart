@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
                       ],
                     ),
                     Text(
-                      "Sept 13, 2020",
+                      "Sept 18, 2020",
                       style: TextStyle(
                           color: primaryColor, fontWeight: FontWeight.bold),
                     ),
