@@ -1,6 +1,7 @@
-import 'package:finance_mobile/src/pages/themes/styles.dart';
+import 'package:finance_mobile/Views/themes/styles.dart';
+import 'package:finance_mobile/views/home.view.dart';
+import 'package:finance_mobile/views/login.view.dart';
 import 'package:flutter/material.dart';
-import 'src/pages/login.page.dart';
 
 class Finance extends StatelessWidget {
   @override
@@ -9,7 +10,11 @@ class Finance extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Finance',
       theme: ThemeData(backgroundColor: bgColor),
-      home: Login(),
+      routes: {
+        '/login': (context) => Login(),
+        '/home': (context) => Home(),
+      },
+      initialRoute: '/login',
     );
   }
 }

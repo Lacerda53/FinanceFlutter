@@ -1,5 +1,4 @@
-import 'package:finance_mobile/src/pages/home.page.dart';
-import 'package:finance_mobile/src/pages/themes/styles.dart';
+import 'package:finance_mobile/views/themes/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -28,27 +27,28 @@ class _LoginState extends State<Login> {
             child: Center(
               child: SvgPicture.asset(
                 logo,
-                width: 120,
+                width: 100,
               ),
             ),
           ),
           Container(
-            padding: EdgeInsets.only(top: 60),
+            padding: EdgeInsets.only(top: 100),
             child: Column(
               children: <Widget>[
                 Container(
-                    width: MediaQuery.of(context).size.width / 1.2,
-                    padding: EdgeInsets.all(10),
+                    width: MediaQuery.of(context).size.width / 1.1,
+                    height: 80,
                     decoration: BoxDecoration(
                         boxShadow: [
                           BoxShadow(color: Color(0xFFCDD1F3), blurRadius: 20)
                         ],
                         color: Colors.white,
-                        borderRadius: BorderRadius.all(Radius.circular(25))),
+                        borderRadius: BorderRadius.all(Radius.circular(20))),
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Padding(
-                          padding: EdgeInsets.only(top: 5, left: 15),
+                          padding: EdgeInsets.only(left: 20, top: 5),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
@@ -60,6 +60,7 @@ class _LoginState extends State<Login> {
                               Theme(
                                 child: TextField(
                                   keyboardType: TextInputType.emailAddress,
+                                  style: TextStyle(fontSize: 15),
                                   decoration: InputDecoration(
                                       hintText: 'Ex. Username@gmail.com',
                                       border: InputBorder.none,
@@ -78,18 +79,19 @@ class _LoginState extends State<Login> {
                   height: 30,
                 ),
                 Container(
-                    width: MediaQuery.of(context).size.width / 1.2,
-                    padding: EdgeInsets.all(10),
+                    width: MediaQuery.of(context).size.width / 1.1,
+                    height: 80,
                     decoration: BoxDecoration(
                         boxShadow: [
                           BoxShadow(color: Color(0xFFCDD1F3), blurRadius: 20)
                         ],
                         color: Colors.white,
-                        borderRadius: BorderRadius.all(Radius.circular(25))),
+                        borderRadius: BorderRadius.all(Radius.circular(20))),
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                         Padding(
-                          padding: EdgeInsets.only(top: 5, left: 15),
+                          padding: EdgeInsets.only(left: 20, top: 5),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
@@ -135,7 +137,7 @@ class _LoginState extends State<Login> {
           Padding(
             child: FlatButton(
               child: SizedBox(
-                  width: MediaQuery.of(context).size.width / 1.3,
+                  width: MediaQuery.of(context).size.width / 1.2,
                   height: MediaQuery.of(context).size.height / 18,
                   child: Center(
                     child: Text(
@@ -151,12 +153,7 @@ class _LoginState extends State<Login> {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(50)),
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => Home(),
-                  ),
-                );
+                Navigator.pushNamed(context, '/home');
               },
             ),
             padding: EdgeInsets.only(top: 30),
@@ -172,14 +169,17 @@ class _LoginState extends State<Login> {
                 FlatButton(
                   child: Text(
                     "Signup",
-                    style: TextStyle(color: Color(0xFF898989)),
+                    style: TextStyle(
+                        color: Color(0xFF898989), fontWeight: FontWeight.w500),
                   ),
                   onPressed: () {},
                 ),
                 FlatButton(
                     child: Text(
                       "Forgot Password?",
-                      style: TextStyle(color: Color(0xFF898989)),
+                      style: TextStyle(
+                          color: Color(0xFF898989),
+                          fontWeight: FontWeight.w500),
                     ),
                     onPressed: () {}),
               ],

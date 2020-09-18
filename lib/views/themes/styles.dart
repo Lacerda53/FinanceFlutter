@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const brightness = Brightness.light;
+const brightness = Brightness.dark;
 const primaryColor = const Color(0xFF4852A0);
 const secundaryColor = const Color(0xFF3C3C3C);
 const bgColor = const Color(0xFFF0F7FF);
