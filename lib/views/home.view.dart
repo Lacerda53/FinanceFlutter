@@ -13,7 +13,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        child: Column(
+        child: Flex(
+          direction: Axis.vertical,
           children: <Widget>[
             Container(
               height: MediaQuery.of(context).size.height / 1.7,
@@ -23,6 +24,7 @@ class _HomeState extends State<Home> {
               child: Padding(
                 padding: EdgeInsets.only(left: 40, right: 40),
                 child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Row(
@@ -51,7 +53,8 @@ class _HomeState extends State<Home> {
               ),
             ),
             Container(
-              height: 200,
+              padding: EdgeInsets.only(top: 10),
+              height: MediaQuery.of(context).size.height / 2.7,
               child: Transations(),
             ),
           ],
