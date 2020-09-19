@@ -1,6 +1,7 @@
 # FinanceFlutter
 
-Em 3 dias focados eu desenvolvi esse projeto usando alguns padrões como MVC, Repository Pattern e o gerenciador de estados Mobx, o maior desafio foi o tempo, pois enquanto eu estava aprendendo e buscando, tive que desenvolver e bater cabeça até conseguir alcançar a meta, talvez o motivo que tenha me ajudado a aprender e desenvolver tão rápido são suas semelhanças com React Native. O objetivo desse teste era replicar 3 interfaces, usar Mobx, simular consumo de API e utilizar as melhores tenicas de desenvolvimento possíveis. Estou satisfeito com meus resultados, claro que esse foi só o ponto de partida para o desenvolvimento com flutter.
+Meu primeiro projeto em Flutter!!! Em 3 dias focados eu desenvolvi esse projeto usando alguns padrões como MVC, Repository Pattern e o gerenciador de estados Mobx, o maior desafio foi o tempo, pois enquanto eu estava aprendendo e buscando, tive que desenvolver e bater cabeça até conseguir alcançar a meta, talvez o motivo que tenha me ajudado a aprender e desenvolver tão rápido são suas semelhanças com React Native. O objetivo desse teste era replicar 3 interfaces, usar Mobx, simular consumo de API e utilizar as melhores tenicas de desenvolvimento possíveis. Estou satisfeito com meus resultados, claro que esse foi só o ponto de partida para o desenvolvimento com flutter. 
+# ...
 
   <h2>Meu projeto</h2>
 <div align="center">
